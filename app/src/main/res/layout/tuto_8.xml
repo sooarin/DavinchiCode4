@@ -5,24 +5,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Activity_5">
+    tools:context=".tuto_8">
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/ImageView5"
+        android:id="@+id/ImageView8"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        android:background="@drawable/tuto4"
+        android:background="@drawable/tuto7"
         android:screenOrientation="landscape"/>
     <Button
-        android:id="@+id/next4"
+        android:id="@+id/next7"
         android:layout_width="370dp"
         android:layout_height="410dp"
         android:background="#00ff0000"
-        android:onClick="next4OnClick"
+        android:onClick="next7OnClick"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -30,11 +30,11 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/back4"
+        android:id="@+id/back7"
         android:layout_width="370dp"
         android:layout_height="410dp"
         android:background="#00ff0000"
-        android:onClick="back4OnClick"
+        android:onClick="back7OnClick"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
